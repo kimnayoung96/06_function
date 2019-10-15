@@ -23,13 +23,13 @@ int calcCombination(int n, int r)
 	return (high/low);
 }
 
-	int main(int argc, char *argv[]) {
+int main(int argc, char *argv[]) {
 	
 	int n, r;
 	int res;
 	
 	printf("input n and r");
-	scanf("%d, %d", &n, &r);
+	scanf("%d %d", &n, &r);
 	
 	res = calcCombination(n,r);
 	printf("combination result is %d\n", res);
